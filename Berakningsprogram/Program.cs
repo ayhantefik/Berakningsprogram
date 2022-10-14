@@ -21,9 +21,9 @@
                 }
                 else if (command == "gånger")
                 {
-                    Console.Write("tal 1: ");
+                    Console.Write("¨Tal 1: ");
                     double X = double.Parse(Console.ReadLine());
-                    Console.Write("tal 2: ");
+                    Console.Write("Tal 2: ");
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} * {Y} = {X * Y}");
                 }
